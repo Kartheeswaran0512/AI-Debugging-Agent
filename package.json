@@ -1,0 +1,17 @@
+{
+  "name": "ai-debugging-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "reset": "node reset-bugs.js",
+    "demo": "node src/index.js \"getUserName crashes when user is undefined. It should return GUEST.\" \"node sample-bugs/test.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^18.0.10"
+  }
+}
