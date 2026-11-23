@@ -1,4 +1,4 @@
-# AI Software Debugging Agent
+# AI-Debugging-Agent
 
 An AI agent that finds the root cause of a bug, applies a minimal fix and verifies it by re-running the tests.
 
